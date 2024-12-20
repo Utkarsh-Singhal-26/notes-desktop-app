@@ -12,6 +12,10 @@ function createWindow(): void {
     autoHideMenuBar: true,
     backgroundMaterial: "acrylic",
     ...(process.platform === "linux" ? { icon } : {}),
+    center: true,
+    title: "Note Markdown App",
+    vibrancy: "under-window",
+    visualEffectState: "active",
     webPreferences: {
       preload: join(__dirname, "../preload/index.js"),
       sandbox: true,
