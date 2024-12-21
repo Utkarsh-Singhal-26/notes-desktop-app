@@ -57,7 +57,7 @@ To run this application locally or build it for distribution, follow these steps
 - **TypeScript**: Provides static typing for improved code quality.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 - **Jotai**: A state management library for React.
-- **Marked.js**: A markdown parser and compiler for rendering markdown content.
+- **MDXEditor**: A markdown parser and compiler for rendering markdown content.
 - **Electron Builder**: A complete solution for packaging and building Electron apps.
 - **fs-extra**: Extends the Node.js `fs` module with additional features.
 - **Vite**: A build tool for faster development and optimized builds.
